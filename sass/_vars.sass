@@ -3,6 +3,7 @@
 $main-color : #111111 
 $second-color : #2be2d3
 $third-color : #fff
+$fourth-color : #777777
 
 // titres :
 
@@ -12,3 +13,24 @@ h2
     font-size: 1.2rem
 h3
     font-size: 1.05rem
+
+// flex-box
+
+%space-between
+    display: flex
+    justify-content: space-between
+%justify-center
+    display: flex
+    justify-content: center
+%align-center
+    display: flex
+    align-items: center
+
+// lien
+
+%a
+    text-decoration: none
+    color: $third-color
+    transition: 0.3s
+    &:hover
+        opacity: 0.5

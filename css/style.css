@@ -11,9 +11,96 @@ h3 {
   font-size: 1.05rem;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+a:hover {
+  opacity: 0.5;
+}
+
 body {
   margin: 0;
   box-sizing: border-box;
   overflow-x: hidden;
   color: #111111;
+  display: flex;
+  font-family: "Roboto";
+}
+
+.section-left {
+  background: #111111;
+  color: #fff;
+}
+
+.left-parts {
+  margin: 15% 0;
+}
+
+.section-right {
+  margin-left: 2%;
+}
+.section-right h1, .section-right h2, .section-right span {
+  color: #2be2d3;
+}
+
+h1, h2 {
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+#title {
+  color: #111111;
+  font-weight: 600;
+}
+
+.parts {
+  margin: 5% 0 5% 0;
+}
+
+.train {
+  font-weight: 500;
+}
+
+.brightness {
+  filter: brightness(0.75);
+}
+
+.train-description, .xp-description {
+  margin-bottom: 5%;
+}
+.train-description p, .xp-description p {
+  color: #777777;
+}
+
+.front ul, .back ul {
+  list-style: none;
+  font-weight: bold;
+}
+
+.xpPro .xp {
+  font-weight: 500;
+}
+
+.section-left {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 50%;
+}
+.section-left #imgProfil {
+  border-radius: 100%;
+  height: 29vh;
+  width: 63%;
+  margin-left: 16%;
+}
+.section-left figcaption {
+  margin-top: 6%;
+}
+.section-left ul {
+  list-style: none;
+}
+.section-left ul li {
+  margin-bottom: 3%;
 }/*# sourceMappingURL=style.css.map */
